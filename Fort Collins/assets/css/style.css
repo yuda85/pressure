@@ -62,7 +62,9 @@
 ====================================================================
 
  ***/
-
+/* html {
+  scroll-behavior: smooth;
+} */
 body {
   font-size: 18px;
   color: #748196;
@@ -1505,6 +1507,7 @@ div#mCSB_1_container {
   transition-delay: 1000ms;
 }
 
+.banner-carousel .content-box h2,
 .banner-carousel .content-box h1 {
   position: relative;
   display: block;
@@ -1526,6 +1529,7 @@ div#mCSB_1_container {
   transition: all 1300ms ease;
 }
 
+.banner-carousel .active .content-box h2,
 .banner-carousel .active .content-box h1 {
   opacity: 1;
   -webkit-transform: translateY(0);
@@ -3276,7 +3280,8 @@ div[class^="bubble-"] {
 
 .main-footer .footer-top .top-inner .footer-logo {
   position: relative;
-  padding: 41px 85px 35px 0px;
+  width: 300px;
+  padding: 31px 85px 26px 0px;
 }
 
 .main-footer .footer-top .top-inner .footer-logo .logo {
