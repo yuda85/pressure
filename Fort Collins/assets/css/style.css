@@ -1460,6 +1460,15 @@ div#mCSB_1_container {
   -ms-transform: scale(1.15);
   transform: scale(1.15);
 }
+.banner-carousel .active .slide-item .image-layer.image-1 {
+  background: url("../images/banner/fort-collins-pressure-wash-banner-1.jpg");
+}
+.banner-carousel .active .slide-item .image-layer.image-2 {
+  background: url("../images/banner/fort-collins-pressure-washing-banner-2.jpg");
+}
+.banner-carousel .active .slide-item .image-layer.image-3 {
+  background: url("../images/banner/fort-collins-pressure-washing-banner-3.jpg");
+}
 
 .banner-carousel .content-box {
   position: relative;
